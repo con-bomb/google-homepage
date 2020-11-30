@@ -8,6 +8,9 @@
         margin: 0;
         padding: 0;
         /* these reset the browser default settings */
+        overflow: hidden;
+        /* background-color: #333; */
+        width: 100%;
     }
 
     li {
@@ -22,6 +25,7 @@
 
     .bottom-row {
         bottom: 0;
+        background-color: #F2F2F2;
     }
 
 </style>
@@ -39,16 +43,20 @@
        <li><a href="default.asp">Store</a></li>
        <li style="float:right"><a href="default.asp">Gmail</a></li>
        <li style="float:right"><a href="default.asp">Images</a></li>
-       <li><a href="default.asp">[]</a></li>
-       <li><a href="default.asp">Sign in</a></li>
+       <li style="float:right"><a href="default.asp">[]</a></li>
+       <li style="float:right   "><a href="default.asp">Sign in</a></li>
    </ul>
     <img class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     <form>
         <input type="text">
     </form>
-    <footer>Advertising</footer>
-    <ul>
-        <li><a href="default.asp">Advertising -List</a></li>
+    <ul class="bottom-row">
+        <li><a href="default.asp">Advertising</a></li>
+        <li><a href="default.asp">Business</a></li>
+        <li><a href="default.asp">How Search Works</a></li>
+        <li style="float:right"><a href="default.asp">Privacy</a></li>
+        <li style="float:right"><a href="default.asp">Terms</a></li>
+        <li style="float:right"><a href="default.asp">Settings</a></li>
     </ul>
 </body>
 </html>
